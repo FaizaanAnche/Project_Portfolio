@@ -1,7 +1,8 @@
 <html>
     <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-  </head>
   <body>
     
 
@@ -23,18 +24,48 @@
     <section id="welcome-section" class="welcome-section">
       <h1>Welcome</h1>
       <p>This is my project portfolio.</p>
+      <a id="profile-link" href="https://faizaananche.github.io/Bootstrap-Portfolio/" target="_blank">Visit My Profile</a>
     </section>
     <!-- END WELCOME SECTION -->
 
     <!-- START PROJECTS SECTION -->
 
     <section id="projects" class="projects-section">
-
-      <h2 class="projects-section-header">These are some of my projects</h2>
+      <div class="projects-section-header">
+        <h2>These are some of my projects</h2>
+        <p>Click on the image to view the project</p>
+      </div>
+      
       
       <div class="project-list">
-        <div class="project-icon"><a href="https://codepen.io/FaizQA/full/YzBprMb">Survey Form</a></div>
-        <div class="project-icon"><a href="https://codepen.io/FaizQA/full/qBgqPvJ">Tribute Page</a></div>
+        <figure>
+          <div class="project-tile">
+            <a href="https://codepen.io/FaizQA/full/YzBprMb">
+              <img src="./images/survey_form_image.png" class="project-image">
+            </a>
+          </div>
+          <figcaption class="project-title">Survey Form</figcaption>
+        </figure>
+          
+        <figure>
+          <div class="project-tile">
+            <a href="https://codepen.io/FaizQA/full/qBgqPvJ">
+            <img src="./images/tribute_image.png" class="project-image">
+            </a>
+          </div>
+          <figcaption class="project-title">Tribute Page</figcaption>
+        </figure>
+        
+        <figure>
+          <div class="project-tile">
+            <a href="https://codepen.io/FaizQA/full/qBgqPvJ">
+              <img src="./images/Tech_Docs.png" class="project-image">
+            </a>
+          </div>
+          <figcaption class="project-title">Technical Documentation</figcaption>
+        </figure>
+        
+      
       </div>
 
     </section>
@@ -42,8 +73,11 @@
     <!-- END PROJECTS SECTION -->
 
     
-
-    <!-- END FOOTER SECTION -->
-  
-
+      <footer id="contact">
+        <p>Contact Information:</p>
+        <p>Email: info@example.com</p>
+        <p>Phone: +1 555-123-4567</p>
+        <p>Address: 123 Street, City, Country</p>
+    </footer>
+    
 </body></html>
