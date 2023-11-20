@@ -2,11 +2,17 @@ html{
     scroll-behavior: smooth;
 }
 
-
 body{
     margin: 0;
-    background-color: #000000 ;
     color: white;
+}
+
+section{
+    background-color: #0a1128;
+}
+
+section:nth-child(odd){
+    background-color: #1c2541;
 }
 
 h1{
@@ -32,9 +38,9 @@ header{
     justify-content: space-between;
     align-items:center ;
     z-index: 100;
-    background-color: #001233;
+    background-color: #000000;
     box-sizing: border-box;
-    border-bottom: 4px solid #33415c ;
+    border-bottom: 4px solid #fca311 ;
 }
 
 header > a{
@@ -73,11 +79,10 @@ header > a{
 
 /* project-section css */
 .projects-section{
-    margin: 10px;
-    background-color: #001233;
+    /* background-color: #001233; */
     padding: 20px;
-    border-radius: 20px;
-    border: 3px solid #fca311;
+    border-top: 3px solid #fca311;
+    border-bottom: 3px solid #fca311;
 }
 
 .project-list{
