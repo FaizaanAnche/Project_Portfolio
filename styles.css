@@ -47,7 +47,7 @@ nav{
     position: fixed;
     top: 0;
     left: 0;
-    border-bottom: 4px solid #fca311 ;;
+    border-bottom: 4px solid #fca311;
 }
 
 .logo{
@@ -239,12 +239,13 @@ figure{
     ul{
         position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 50vh;
         background-color: #001d3d;
         top: 80px;
         left: -100%;
         transition: all 0.5s;
         text-align: center;
+        border-bottom: 4px solid #fca311;
     }
 
     nav ul li{
